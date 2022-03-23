@@ -88,6 +88,10 @@ p {
     border: 2px solid #ff30a4;
 }
 
+.button:active {
+    background-color: lightgray;
+}
+
 a{
     text-decoration: none;
     color: #e7e4e4;
@@ -98,7 +102,7 @@ a:hover {
 }
 
 .button a:active {
-    color: white;
+    color: #2b2c38;
 }
 
 .socials {
@@ -193,14 +197,38 @@ hr {
     display: none;
 }
 
+.hamburger:focus {
+    outline: 0;
+}
+
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
         border: 0;
         background-color: transparent;
         color: whitesmoke;
-        font-size: 30px;
-        padding-right: 80px;
+        font-size: 45px;
+        margin: 20px;  
+        align-self: flex-end;      
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
     }
 }
 
