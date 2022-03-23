@@ -84,13 +84,20 @@ p {
 
 .button:hover {
     background-color: whitesmoke;
-    color: #ff30a4;
     cursor: pointer;
     border: 2px solid #ff30a4;
 }
 
-.button:active {
-    background-color: #e7e4e4;
+a{
+    text-decoration: none;
+    color: #e7e4e4;
+}
+
+a:hover {   
+    color: #ff30a4;
+}
+
+.button a:active {
     color: white;
 }
 
@@ -177,7 +184,7 @@ hr {
     color: #ff30a4;
 }
 
-a {
+.nav-links {
     text-decoration: none;
     color: #e7e4e4;
 }
