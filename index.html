@@ -20,26 +20,18 @@
         <nav>
             <div class="logo">
                 <img src="./src/images/Logos/greySquareLogo/logo_transparent.png" alt="meraki-logo">
-
-                <!-- MFS -->
-                <!-- <i class="fa-solid fa-check-double"></i> -->
-                <!-- <i class="fa-brands fa-connectdevelop"></i> -->
-                <!-- <i class="fa-solid fa-dice-d20"></i> -->
-
-                <!-- <i class="fa-brands fa-monero fa-2xl"></i> -->
-
             </div>
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Caitlyn Griffing</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about">About me</a></div>
             </div>
             <div class="socials">
                 <div class="social">
@@ -61,7 +53,7 @@
         </div>
     </section>
 
-    <section class="sub-section">
+    <section class="sub-section" id="about">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello. My name is Caitlyn Griffing. I am a Full Stack Web Developer with a passion for coding remaining a forever student in this rapidly transforming industry.</p>
@@ -71,44 +63,47 @@
         </div>
     </section>
 
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
-                <img src="" alt="Project One Image" class="project-image">
-                <h3>Project One</h3>
-                <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+                <img src="./src/images/raversOutlet.png" alt="Project One Image" class="project-image">
+                <h3>Ravers Outlet</h3>
+                <p class="subtext">E-Commerce website for selling products</p>
                 <hr>
-                <p class="subtext">View Here</p>
+                <p class="subtext"><a class="project-link" href="https://ravers-outlet.herokuapp.com/" target="_blank">View Here</a></p>
             </div>
 
             <div class="project-card">
-                <img src="" alt="Project Two Image" class="project-image">
-                <h3>Project Two</h3>
-                <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+                <img src="./src/images/heatWave.png" alt="Project Two Image" class="project-image">
+                <h3>Heat Wave</h3>
+                <p class="subtext">Type in a city and get the current weather PLUS a 5 day forecast! I used HTML, CSS, JavaScript, and a Weather API</p>
                 <hr>
-                <p class="subtext">View Here</p>
+                <p class="subtext"><a class="project-link" href="https://caitlyn-griffing.github.io/heat-wave/" target="_blank">View Here</a></p>
             </div>
 
             <div class="project-card">
-                <img src="" alt="Project Three Image" class="project-image">
-                <h3>Project Three</h3>
-                <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+                <img src="./src/images/beatTheTimer.png" alt="Project Three Image" class="project-image">
+                <h3>Beat the Timer</h3>
+                <p class="subtext">Can you beat the Timer? Take this timed JavaScript Quiz. If you answer a question right, then dot will turn green. If wrong, the dot will turn red. At the end of the Quiz you will recieve your score</p>
                 <hr>
-                <p class="subtext">View Here</p>
+                <p class="subtext"><a class="project-link" href="https://caitlyn-griffing.github.io/Beat-the-Timer/" target="_blank">View Here</a></p>
             </div>
 
             <div class="project-card">
-                <img src="" alt="Project Four Image" class="project-image">
-                <h3>Project Four</h3>
-                <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+                <img src="./src/images/noteTaker.png" alt="Project Four Image" class="project-image">
+                <h3>Note Taker</h3>
+                <p class="subtext">You can write a note then choose to Save it or delete it</p>
                 <hr>
-                <p class="subtext">View Here</p>
+                <p class="subtext"><a class="project-link" href="https://post-yo-note.herokuapp.com/" target="_blank">View Here</a></p>
             </div>
         </div>
     </section>
 
-    <footer></footer>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>griffingcaitlyn@gmail.com</p>
+    </footer>
 
     <script src="./src/app.js"></script>
 </body>
