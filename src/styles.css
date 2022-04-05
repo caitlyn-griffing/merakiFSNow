@@ -52,10 +52,24 @@ p {
 }
 
 .hero {
-    background-color: #1c1d25;
+    /* background-color: #1c1d25; */
     height: 100vh;
     color: whitesmoke;
     font-size: 40px;
+    background: url('/merakiFSNow/src/images/blackstars.jpeg');
+    background-size: cover;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 20s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+}
+            
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
 }
 
 .hero-area {
